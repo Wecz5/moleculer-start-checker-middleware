@@ -1,7 +1,7 @@
 {
   "name": "@r2d2bzh/moleculer-start-checker-middleware",
   "version": "0.0.0",
-  "description": "Checker for moleculer that checks that dependencies are started",
+  "description": "Checker for moleculer that checks that services are started",
   "main": "index.js",
   "scripts": {
     "pretest": "npm install",

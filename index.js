@@ -15,7 +15,6 @@ module.exports = (timeoutMs, exitCode) => ({
   },
   stopped(broker) {
     if (process.ENV_NAME && process.ENV_NAME === "TEST_ENV") {
-      console.log("in test condition");
       process.ENV_Result = "broker stopped";
     } else {
       if (this.exitCode) {
